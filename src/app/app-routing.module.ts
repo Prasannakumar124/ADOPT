@@ -15,7 +15,7 @@ const routes: Routes = [
   {path:'',redirectTo:'/Main',pathMatch:'full'},
   { path : 'home', component : HomeComponent },
   {path:'Main',component:MainComponent},
-  {path:'header',component:HeaderComponent},
+  // {path:'header',component:HeaderComponent},
   {path:'footer',component:FooterComponent},
   {path:'signin',component:SIGNINComponent},
   {path:'Aboutus',component:AboutUsComponent},

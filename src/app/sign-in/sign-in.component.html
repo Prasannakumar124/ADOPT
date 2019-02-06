@@ -1,3 +1,22 @@
-<p>
-  sign-in works!
-</p>
+<div>
+  <img src="../../assets/hand.jpg" alt="hand" class="signin-pic">
+</div>
+<div class="form-style">
+  <form>
+    <div class="input-container">
+        <img src="../../assets/UserID.svg" alt="userid" class="gyp">
+      <input  class="fields" type="email" name="field1" placeholder="user Id"/>
+    </div>
+    <div class="input-container">
+          <img src="../../assets/Password.svg" alt="password" class="gyp">
+      <input class="fields" type="password" name="field2" placeholder="password"/>
+     <a routerLink=""><img src="../../assets/View password.svg" id="gyp-p" alt="view password"></a>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="remember" value="remember me"><span id="check">Remember me</span>
+        <a routerLink="/forgotpassword" id="forgotpassword">Forgot password?</a>
+    </div><br>
+    <button class="btn btn-primary" id="signin-btn"  (click)="onclick()">SIGN IN</button>
+  </form>
+</div>
